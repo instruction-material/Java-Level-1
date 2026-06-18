@@ -4,7 +4,7 @@ public class Main {
 	private static int computeScore(List<Integer> values) {
 		int total = 0;
 		for (int value : values) {
-			// TODO: update the scoring rule.
+			// TODO: values 10 or higher count double; smaller values count once.
 		}
 		return total;
 	}

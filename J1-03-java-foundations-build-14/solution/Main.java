@@ -4,7 +4,12 @@ public class Main {
 	private static int computeScore(List<Integer> values) {
 		int total = 0;
 		for (int value : values) {
-			total += value % 2 == 0 ? value / 2 : value * 2;
+			if (value >= 10) {
+				total += value * 2;
+			}
+			else {
+				total += value;
+			}
 		}
 		return total;
 	}

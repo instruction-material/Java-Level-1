@@ -1,14 +1,15 @@
-# Java foundations build 14
+# Java foundations build 14: weighted scoring
 
 Course: Java Level 1
 Module: Java foundations build 14
 
-Use the starter folder first. The starter is intentionally incomplete, and the solution shows one clean way to finish the same build after the student has worked through it.
+Complete a List-processing method where large values count more heavily than smaller values. The project reinforces enhanced `for` loops, `if`/`else` logic, accumulator updates, and writing a scoring rule clearly enough that the output can be predicted before running the program.
 
-Suggested flow:
-- Read the module brief and identify the core requirement.
-- Complete the TODO markers in the starter implementation.
-- Test at least one custom case beyond the default example.
-- Compare against the solution only after the student has a working draft.
+Requirements:
+- Implement `computeScore(List<Integer> values)`.
+- Add values less than `10` normally.
+- Add values greater than or equal to `10` twice.
+- Verify the default case by hand: `2 + 5 + 8 + 26 = 41`.
+- Add one custom case that includes a value exactly equal to `10`.
 
 Quick run hint: `javac Main.java && java Main`

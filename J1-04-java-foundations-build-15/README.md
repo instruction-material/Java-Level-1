@@ -1,14 +1,15 @@
-# Java foundations build 15
+# Java foundations build 15: range counting
 
 Course: Java Level 1
 Module: Java foundations build 15
 
-Use the starter folder first. The starter is intentionally incomplete, and the solution shows one clean way to finish the same build after the student has worked through it.
+Complete a List-processing method that counts how many values fall inside an inclusive range. The project reinforces boolean operators, boundary conditions, method parameters, and the difference between counting matching items and summing their values.
 
-Suggested flow:
-- Read the module brief and identify the core requirement.
-- Complete the TODO markers in the starter implementation.
-- Test at least one custom case beyond the default example.
-- Compare against the solution only after the student has a working draft.
+Requirements:
+- Implement `computeScore(List<Integer> values, int min, int max)`.
+- Count a value when `min <= value <= max`.
+- Treat both endpoints as included in the range.
+- Verify the default case by hand: only `5` and `8` are in the range `5` to `10`, so the result is `2`.
+- Add one custom case where a value is exactly equal to the minimum or maximum.
 
 Quick run hint: `javac Main.java && java Main`

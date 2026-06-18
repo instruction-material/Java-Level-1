@@ -4,7 +4,7 @@ public class Main {
 	private static int computeScore(List<Integer> values) {
 		int total = 0;
 		for (int value : values) {
-			// TODO: update the scoring rule.
+			// TODO: add only the even values to total.
 		}
 		return total;
 	}

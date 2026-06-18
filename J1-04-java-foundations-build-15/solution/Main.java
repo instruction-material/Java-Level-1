@@ -1,15 +1,17 @@
 import java.util.List;
 
 public class Main {
-	private static int computeScore(List<Integer> values) {
-		int total = 0;
+	private static int computeScore(List<Integer> values, int min, int max) {
+		int count = 0;
 		for (int value : values) {
-			total += value % 2 == 0 ? value / 2 : value * 2;
+			if (value >= min && value <= max) {
+				count++;
+			}
 		}
-		return total;
+		return count;
 	}
 
 	public static void main(String[] args) {
-		System.out.println(computeScore(List.of(2, 5, 8, 13)));
+		System.out.println(computeScore(List.of(2, 5, 8, 13), 5, 10));
 	}
 }

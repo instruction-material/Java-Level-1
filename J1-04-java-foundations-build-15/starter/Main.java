@@ -1,15 +1,15 @@
 import java.util.List;
 
 public class Main {
-	private static int computeScore(List<Integer> values) {
-		int total = 0;
+	private static int computeScore(List<Integer> values, int min, int max) {
+		int count = 0;
 		for (int value : values) {
-			// TODO: update the scoring rule.
+			// TODO: count values that are between min and max, inclusive.
 		}
-		return total;
+		return count;
 	}
 
 	public static void main(String[] args) {
-		System.out.println(computeScore(List.of(2, 5, 8, 13)));
+		System.out.println(computeScore(List.of(2, 5, 8, 13), 5, 10));
 	}
 }

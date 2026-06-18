@@ -2,11 +2,14 @@ import java.util.List;
 
 public class Main {
 	private static int computeScore(List<Integer> values) {
-		int total = 0;
-		for (int value : values) {
-			total += value % 2 == 0 ? value / 2 : value * 2;
+		int largestGap = 0;
+		for (int i = 1; i < values.size(); i++) {
+			int gap = values.get(i) - values.get(i - 1);
+			if (gap > largestGap) {
+				largestGap = gap;
+			}
 		}
-		return total;
+		return largestGap;
 	}
 
 	public static void main(String[] args) {
