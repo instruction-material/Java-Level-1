@@ -1,20 +1,20 @@
 import java.util.*;
 
 class Main {
-  public static void main(String[] args) {
-    
-    Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
 
-    System.out.println("\nI'll print out the first, middle, and last characters!");
-    System.out.print("Enter a word: ");
-    String word = scanner.nextLine();
-    int midpoint = word.length()/2;
+        Scanner scanner = new Scanner(System.in);
 
-    System.out.print("First-Middle-Last: ");
-    System.out.print(word.charAt(0) + "-");
-    System.out.print(word.charAt(midpoint) + "-");
-    System.out.print(word.charAt(word.length()-1));
-    System.out.println("");
+        System.out.println(
+            "\nI'll print out the first, middle, and last characters!");
+        System.out.print("Enter a word: ");
+        String word = scanner.nextLine();
+        int midpoint = word.length() / 2;
 
-  }
+        System.out.print("First-Middle-Last: ");
+        System.out.print(word.charAt(0) + "-");
+        System.out.print(word.charAt(midpoint) + "-");
+        System.out.print(word.charAt(word.length() - 1));
+        System.out.println("");
+    }
 }

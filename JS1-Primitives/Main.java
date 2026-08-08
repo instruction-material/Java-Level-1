@@ -1,15 +1,15 @@
 class Main {
-  public static void main(String[] args) {
-    int x = 5;
-    System.out.println(x);
+    public static void main(String[] args) {
+        int x = 5;
+        System.out.println(x);
 
-    double y = 2.0;
-    System.out.println(y);
+        double y = 2.0;
+        System.out.println(y);
 
-    char z = 'a';
-    System.out.println(z);
+        char z = 'a';
+        System.out.println(z);
 
-    boolean isCold = false;
-    System.out.println(isCold);
-  }
+        boolean isCold = false;
+        System.out.println(isCold);
+    }
 }

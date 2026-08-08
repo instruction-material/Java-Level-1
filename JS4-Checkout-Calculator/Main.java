@@ -1,23 +1,23 @@
 import java.util.Scanner;
 
 class Main {
-  public static void main(String[] args) {
-    
-		Scanner in = new Scanner(System.in);
-		double totalPrice = 0;
+    public static void main(String[] args) {
 
-		while(true) {
-			System.out.print("What is the cost of your next item? (Enter 0 to stop.) ");
-			double price = in.nextDouble();
+        Scanner in = new Scanner(System.in);
+        double totalPrice = 0;
 
-			if(price == 0) {
-				break;
-			} else {
-				totalPrice += price;
-			}
-		}
+        while (true) {
+            System.out.print(
+                "What is the cost of your next item? (Enter 0 to stop.) ");
+            double price = in.nextDouble();
 
-		System.out.println("Your total is $" + totalPrice + ".");
+            if (price == 0) {
+                break;
+            } else {
+                totalPrice += price;
+            }
+        }
 
-  }
+        System.out.println("Your total is $" + totalPrice + ".");
+    }
 }

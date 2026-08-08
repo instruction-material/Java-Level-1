@@ -1,31 +1,28 @@
 class Main {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
-    String[] strArr = {"horse", "cowboy", "yeehaw"};
-    String[] reverseStrArr = reverseArr(strArr);
-    for(int i = 0; i < reverseStrArr.length; i++) {
-      System.out.println(reverseStrArr[i]);
+        String[] strArr = {"horse", "cowboy", "yeehaw"};
+        String[] reverseStrArr = reverseArr(strArr);
+        for (int i = 0; i < reverseStrArr.length; i++) {
+            System.out.println(reverseStrArr[i]);
+        }
     }
 
-  }
+    public static String[] reverseArr(String[] a) {
 
-  public static String[] reverseArr(String[] a) {
-
-    String[] newA = new String[a.length];
-    for(int i = 0; i < a.length; i++) {
-      newA[a.length-1-i] = reverseStr(a[i]);
+        String[] newA = new String[a.length];
+        for (int i = 0; i < a.length; i++) {
+            newA[a.length - 1 - i] = reverseStr(a[i]);
+        }
+        return newA;
     }
-    return newA;
 
-  }
+    public static String reverseStr(String s) {
 
-  public static String reverseStr(String s) {
-
-    String newS = "";
-    for(int i = 0; i < s.length(); i++) {
-      newS = s.charAt(i) + newS;
+        String newS = "";
+        for (int i = 0; i < s.length(); i++) {
+            newS = s.charAt(i) + newS;
+        }
+        return newS;
     }
-    return newS;
-
-  }
 }
