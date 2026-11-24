@@ -46,6 +46,9 @@ Canonical source repository: `Java-Level-1`
 | `JS-Check-in-1-Additional-Project` |
 | `JS-Check-in-1-Additional-Project-Starter` |
 | `JS1-Casting-Reference` |
+| `Karel-Worlds/Beeper-Delivery` |
+| `Karel-Worlds/Blocked-Move-Debugging` |
+| `Karel-Worlds/Constructor-Swap` |
 | `JS1-Chat-Bot` |
 | `JS1-Division-Facts` |
 | `JS1-First-Middle-Last` |

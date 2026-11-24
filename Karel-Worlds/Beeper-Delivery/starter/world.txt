@@ -1,0 +1,4 @@
+rows=5
+cols=6
+beeper 2 2 1
+wall 2 3 north
