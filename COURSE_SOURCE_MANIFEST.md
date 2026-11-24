@@ -16,6 +16,7 @@ Canonical source repository: `Java-Level-1`
 
 | Folder |
 | --- |
+| `Course-Practice` |
 | `J1-01-js1-variable-types-input-output-supplemental-3` |
 | `J1-02-java-foundations-build-13` |
 | `J1-02-js2-casting-and-operators-supplemental-3` |
